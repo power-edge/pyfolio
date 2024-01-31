@@ -33,12 +33,6 @@ classifiers = ['Development Status :: 4 - Beta',
                'Programming Language :: Python :: 2.7',
                'Programming Language :: Python :: 3.4',
                'Programming Language :: Python :: 3.5',
-               'Programming Language :: Python :: 3.6',
-               'Programming Language :: Python :: 3.7',
-               'Programming Language :: Python :: 3.8',
-               'Programming Language :: Python :: 3.9',
-               'Programming Language :: Python :: 3.10',
-               'Programming Language :: Python :: 3.11',
                'License :: OSI Approved :: Apache Software License',
                'Intended Audience :: Science/Research',
                'Topic :: Scientific/Engineering',
@@ -57,7 +51,6 @@ install_reqs = [
     'scikit-learn>=0.16.1',
     'seaborn>=0.7.1',
     'empyrical>=0.5.0',
-    'zipline>=0.8'
 ]
 
 test_reqs = ['nose>=1.3.7', 'nose-parameterized>=0.5.0', 'runipy>=0.1.3']
